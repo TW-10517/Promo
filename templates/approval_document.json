@@ -1,0 +1,29 @@
+{
+  "document_title": "稟議書",
+  "description": "企画書をもとに作成する社内稟議書。構造は固定。",
+  "header_fields": [
+    { "key": "application_date", "label": "申請日", "hint": "企画書に日付の記載があればそれを使用。なければ [MISSING: 申請日]。" },
+    { "key": "department", "label": "申請部署", "hint": "企画書に記載の担当部署。通常は販売促進部。" },
+    { "key": "applicant", "label": "申請者", "hint": "企画書に記載の担当者名。記載がなければ [MISSING: 申請者]。" },
+    { "key": "subject", "label": "件名", "hint": "施策・商品名を含む簡潔な件名（30文字以内）。" },
+    { "key": "product_name", "label": "対象商品", "hint": "企画書に記載の商品名。" },
+    { "key": "target_period", "label": "実施時期", "hint": "企画書に記載の実施期間・発売時期。" }
+  ],
+  "sections": [
+    { "key": "purpose", "label": "1. 目的", "hint": "本施策の目的。企画書の背景・狙いから記載。" },
+    { "key": "background", "label": "2. 背景", "hint": "市場環境や課題など、企画書に記載された背景情報。" },
+    { "key": "overview", "label": "3. 施策概要", "hint": "施策の全体像。何を、誰に、どのように行うか。" },
+    { "key": "target_customer", "label": "4. 対象顧客", "hint": "ターゲット顧客層。企画書の記載に基づく。" },
+    { "key": "product_details", "label": "5. 商品内容", "hint": "商品の仕様・特徴。企画書の記載に基づく。" },
+    { "key": "sales_channel", "label": "6. 販売チャネル", "hint": "販売経路・展開先。記載がなければ [MISSING: 販売チャネル]。" },
+    { "key": "expected_effect", "label": "7. 期待効果", "hint": "企画書に記載された効果・目標。数値は企画書にあるもののみ記載し、推定しない。" },
+    { "key": "budget", "label": "8. 予算", "hint": "企画書に金額の記載がある場合のみ記載。なければ [MISSING: 予算]。" },
+    { "key": "schedule", "label": "9. スケジュール", "hint": "企画書に記載のスケジュール。日付は推定しない。" },
+    { "key": "risks", "label": "10. 想定リスク・留意事項", "hint": "企画書に記載のリスク・注意点。なければ [MISSING: 想定リスク・留意事項]。" },
+    { "key": "remarks", "label": "11. 備考", "hint": "補足事項。特になければ「特記事項なし」。" }
+  ],
+  "approval_table": {
+    "label": "承認欄",
+    "columns": ["承認", "部長", "課長", "担当"]
+  }
+}

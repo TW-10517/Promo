@@ -1,0 +1,34 @@
+{
+  "document_title": "実施計画書",
+  "sheet_name": "実施計画",
+  "description": "行・列構成は固定。多くの欄は後日、販売促進部と企画部の協議後に手入力で埋めるため、空欄のままが正しい。",
+  "columns": [
+    { "key": "item",       "header": "項目",       "width": 22, "fixed": true,  "fill": false },
+    { "key": "content",    "header": "内容",       "width": 46, "fixed": false, "fill": true  },
+    { "key": "owner",      "header": "担当",       "width": 14, "fixed": false, "fill": false },
+    { "key": "due_date",   "header": "期限",       "width": 14, "fixed": false, "fill": false },
+    { "key": "cost",       "header": "費用(円)",   "width": 14, "fixed": false, "fill": false },
+    { "key": "status",     "header": "ステータス", "width": 12, "fixed": false, "fill": false },
+    { "key": "remarks",    "header": "備考",       "width": 30, "fixed": false, "fill": true  }
+  ],
+  "rows": [
+    { "item": "施策名",             "hint": "企画書の施策名・商品名。" },
+    { "item": "目的",               "hint": "企画書に記載の目的。" },
+    { "item": "対象商品",           "hint": "企画書に記載の商品名。" },
+    { "item": "対象顧客",           "hint": "企画書に記載のターゲット。" },
+    { "item": "実施期間",           "hint": "企画書に明記がある場合のみ。推定禁止。" },
+    { "item": "価格設定",           "hint": "協議後に決定するため通常は空欄。" },
+    { "item": "販売チャネル",       "hint": "企画書に記載がある場合のみ。" },
+    { "item": "販促物制作",         "hint": "企画書に記載がある場合のみ。" },
+    { "item": "広告・宣伝",         "hint": "企画書に記載がある場合のみ。" },
+    { "item": "Web・SNS施策",       "hint": "企画書に記載がある場合のみ。" },
+    { "item": "店頭施策",           "hint": "企画書に記載がある場合のみ。" },
+    { "item": "プレスリリース",     "hint": "企画書に記載がある場合のみ。" },
+    { "item": "社内周知",           "hint": "通常は空欄。" },
+    { "item": "在庫・物流",         "hint": "通常は空欄。" },
+    { "item": "効果測定",           "hint": "企画書に記載がある場合のみ。" },
+    { "item": "予算総額",           "hint": "協議後に決定するため通常は空欄。" },
+    { "item": "承認・決裁",         "hint": "通常は空欄。" },
+    { "item": "その他",             "hint": "通常は空欄。" }
+  ]
+}

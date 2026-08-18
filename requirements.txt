@@ -1,0 +1,10 @@
+# --- Runtime dependencies -------------------------------------------------
+PyQt6>=6.7.0            # Desktop GUI
+python-pptx>=1.0.2      # Read the Planning Document (.pptx)
+python-docx>=1.1.2      # Write Approval Document / Press Release (.docx)
+openpyxl>=3.1.5         # Write Action Plan (.xlsx)
+anthropic>=0.69.0       # Claude API client
+python-dotenv>=1.0.1    # Load the company API key from .env
+
+# --- Build-time only (packaging) -----------------------------------------
+pyinstaller>=6.10.0

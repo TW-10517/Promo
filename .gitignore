@@ -1,0 +1,26 @@
+# Secrets -- the company API key must never be committed
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# PyInstaller
+build/
+dist/
+
+# Local test data / generated output
+output/
+samples/
+*.docx
+*.xlsx
+~$*
+
+# Per-project data created at runtime (planning docs, generated files,
+# missing-items history) -- never committed, always regenerated locally
+projects/
+projects.json
+data/
